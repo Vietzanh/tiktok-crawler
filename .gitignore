@@ -1,0 +1,41 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Browser Profiles & Run Artifacts
+chrome_profile/
+chrome_profile*/
+*.tmp
+*.bak
+
+# Crawler Data & Output
+output/
+categories/
+
+# State & Cache Files (Ignore all JSON except seed channel lists)
+*.json
+.*.json
+!channels.json
+!Vietnamese_channels.json
+
+# Secrets, Environment & Certificates
+.env
+.env.*
+ca.crt
+*.pem
+*.key
+*.crt
+
+# Editor & OS Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
